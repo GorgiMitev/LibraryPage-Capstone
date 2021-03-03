@@ -4,3 +4,81 @@
 
 /* Nav-bar */
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.behance {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.noHover {
+    pointer-events: none !important;
+  }
+
+
+
+.black-hover:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: black;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    height: 2rem;
+}
+.search {
+    height: 2rem;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.search { text-align: left; }
+.search:focus { text-align: center;}
+
+.btn-login,
+.btn-sign-up {
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.nav-right {
+    padding-right: 1rem;
+}
+
+.btn-sign-up {
+    margin-right: 2rem;
+    margin-left: 0.4rem;
+    width: 6rem;
+}
+
+.adobe-logo {
+    padding-right: 0.5rem;
+    height: 1.4rem;
+}
+
+.adobe-text {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
