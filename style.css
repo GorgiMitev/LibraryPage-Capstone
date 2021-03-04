@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 
 * {
     box-sizing: border-box;
@@ -114,29 +116,69 @@ main::before {
     width: 40rem;
     height: 25rem;
     margin-left: 5rem;
-    filter: blur(3.9px) contrast(0.7) saturate(1) brightness(1);
 }
 
-.logo-title {
-    background: url('https://i.imgur.com/OUyfQnt.jpg');
-    background-size: cover;
-    position: relative;
-    font-size: 90px;
-    text-transform: uppercase;
-    font-family: 'Rancho', cursive;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    }
-  
+/* Main-title */
 
-  .logo-title:after {
-    content: 'Welcome to Vision when in doubt come to us!';
-    position: absolute;
-    -webkit-text-stroke-width: 55px;
-    -webkit-text-stroke-color: rgba(black, 0.8);
-    left: 2px;
-    top: 2px
+.logo-title {
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 80px;
+    transform: skewY(-10deg);
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: tomato;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    text-shadow: 
+      -1px -1px 0 firebrick,
+      -2px -2px 0 firebrick,
+      -3px -3px 0 firebrick,
+      -4px -4px 0 firebrick,
+      -5px -5px 0 firebrick,
+      -6px -6px 0 firebrick,
+      -7px -7px 0 firebrick,
+      -8px -8px 0 firebrick,
+      -30px 20px 40px dimgrey
+    }
+
+    .vision {
+        color: blue !important;
+    }
+
+    .logo-title:hover {
+        transform: rotate(360deg);
+    }
+    
+    
+  .working-hours {
+    background-color: rgba(250, 250, 250, 0.8);
+    width: 30%;
+    float: left;
+    margin-left: 15rem;
+  }
+
+  .time {
+      color:rgb(233, 27, 27, 0.6);
+      font-size: 20px;
+      font-weight: bold;
+      font-family: 'Permanent Marker', cursive;
+      line-height: 3rem;
+      word-spacing: 2px;
+  }
+
+  .adress-bar {
+      width: 30%;
+      font-size: 20px;
+  }
+
+  .adress {
+      font-weight: bold;
+  }
+
+  .email-p:hover {
+      font-size: 30px;
+      color:rgb(233, 27, 27, 0.6);
+      font-family: 'Permanent Marker', cursive;
   }
 
  
