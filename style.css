@@ -183,7 +183,7 @@ main::before {
   /* Category Section */
 
   .category-section {
-      background-color: rgb(49, 52, 61);
+      background: url(./img/bg-img-category.jpg) center center / cover no-repeat;
       text-align: center;
       border-radius: 8px;
       color: white;
@@ -225,7 +225,70 @@ main::before {
       font-size: 1.2rem;
   }
 
- 
+  /* authors section */
+
+  .authors {
+      background-color: white;
+      text-align: center; 
+  }
+
+  .author-title {
+      font-weight: bold;
+  }
+
+  .author-title:after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    padding-top: 20px;
+    border-bottom: 1px solid red;
+  }
+
+  .author-img2 {
+      height: 14rem;
+      width : 9rem;
+  }
+
+  .author-img1 {
+    height: 10rem;
+    padding-left: 12px;
+    opacity: 1.4;
+}
+
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .author-img1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .author-img2 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+
+  .author-bio {
+      text-align: left;
+  }
+
+  .author-top-p {
+      color: red;
+  }
+
+  .author-top-p:after {
+    content: '';
+    display: block;
+    width: 10%;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(7, 7, 7);
+  }
   
 
 
