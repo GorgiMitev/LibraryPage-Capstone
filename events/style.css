@@ -130,7 +130,7 @@ main::before {
   .ticket-option {
       font-size: 1.2rem;
       color: darkblue;
-      width: 40%;
+      width: 50%;
       height: 2.3rem;
   }
 
@@ -192,13 +192,45 @@ main::before {
       font-weight: bold;
   }
 
+  /* Section-2 */
 
+.section-2 {
+    background-color: rgb(241, 224, 224);
+}
 
-  
+.menu-title {
+    font-family: "Permanent Marker", cursive;
+}
 
+#table-1,
+#table-2 {
+    border: 1px solid black;
+}
 
+#table-1 > thead > tr > th{
+    border: 1px solid black;
+  }
 
+#table-1 > tbody > tr > td{
+    border: 1px solid black;
+  }
 
+.table-tr {
+    background: linear-gradient(rgba(173, 169, 150, 0.8), rgba(242, 242, 242, 0.7));
+    height: 2.5rem;
+  }
+
+#table-2 > thead > tr > th{
+    border: 1px solid black;
+  }
+
+#table-2 > tbody > tr > td{
+    border: 1px solid black;
+  }
+
+  .btn-checkout {
+      width: 15rem;
+  }
 
   /* Footer */
 
