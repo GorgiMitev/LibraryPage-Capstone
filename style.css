@@ -54,7 +54,6 @@ a {
   text-align: center;
   pointer-events: none;
   color: #aaa;
-  height: 2rem;
 }
 
 .search {
@@ -63,9 +62,6 @@ a {
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
-}
-
-.search {
   text-align: left;
 }
 
@@ -91,10 +87,6 @@ a {
   box-shadow: 0px 1px 0px 0px;
 }
 
-.nav-right {
-  padding-right: rem;
-}
-
 .btn-sign-up {
   margin-right: 2rem;
   margin-left: 0.4rem;
@@ -116,7 +108,7 @@ a {
 main::before {
   content: "";
   position: fixed;
-  top: 5;
+  top: 5;   
   height: 100%;
   width: 100%;
   z-index: -1;
@@ -149,9 +141,14 @@ main::before {
   word-spacing: -8px;
   color: tomato;
   transition: width 2s, height 2s, background-color 2s, transform 2s;
-  text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick,
-    -3px -3px 0 firebrick, -4px -4px 0 firebrick, -5px -5px 0 firebrick,
-    -6px -6px 0 firebrick, -7px -7px 0 firebrick, -8px -8px 0 firebrick,
+  text-shadow: -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
     -30px 20px 40px dimgrey;
 }
 
@@ -248,7 +245,7 @@ main::before {
   font-weight: bold;
 }
 
-.author-title:after {
+.author-title::after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -267,15 +264,12 @@ main::before {
   height: 10rem;
   padding-left: 8px;
   opacity: 1.4;
-}
-
-.parent {
   position: relative;
   top: 0;
   left: 0;
 }
 
-.author-img1 {
+.parent {
   position: relative;
   top: 0;
   left: 0;
@@ -295,7 +289,7 @@ main::before {
   color: red;
 }
 
-.author-top-p:after {
+.author-top-p::after {
   content: "";
   display: block;
   width: 10%;
@@ -378,14 +372,13 @@ main::before {
 
   .author-img2 {
     position: relative;
-    float: center;
     width: 15rem;
     margin-bottom: 45px;
     margin-right: 45px;
   }
 
   .follow-p {
-    color: Black;
+    color: black;
     font-family: "Permanent Marker", cursive;
     font-weight: bold;
   }
