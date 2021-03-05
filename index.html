@@ -11,12 +11,12 @@
 </head>
 <body>
    
-    <nav class ="nav nav-top d-flex justify-content-between"> 
+    <nav class ="container-fluid nav nav-top d-flex justify-content-between pb-2"> 
 
        <!--Navbar-left-->
         <ul class="col-md-4 nav nav-left pt-2">
             <li class="nav-item noHover">
-            <a class="nav-link behance" href="#">Vision</a>
+            <a class="nav-link behance d-none d-md-block d-xl-block" href="#">Vision Library</a>
             </li>
             <li class="nav-item pt-1">
             <a class="nav-link black-hover" href="#">Books</a>
@@ -27,10 +27,13 @@
             <li class="nav-item pt-1 ">
             <a class="nav-link black-hover" href="#">About</a>
             </li>
+            <li class="nav-item pt-1 ">
+                <a class="nav-link black-hover" href="#">Events</a>
+                </li>
         </ul>
 
         <!--Navbar-middle-->
-        <div class="col-md-4 form-group has-search pt-3">
+        <div class="col-md-4 form-group has-search pt-3 d-md-none d-lg-block">
             <span class="fa fa-search form-control-feedback"></span>
             <input type="text" class="form-control search" placeholder="Search...">
         
@@ -39,7 +42,7 @@
          <!--Navbar-right-->
         <ul class="col-md-4 nav nav-right d-flex justify-content-end pt-3">
             <li class="nav-item">
-                <button class="btn btn-login text-dark d-none bg-white d-sm-flex border">Log in</button>
+                <button class="btn btn-login text-dark bg-white d-sm-flex border">Log in</button>
             </li>
             <li class="nav-item">
                 <button class="btn btn-sign-up text-white bg-primary border">Sign Up</button>
@@ -61,20 +64,18 @@
             </div>    
         </div>
 
-        <div class="row">
-            <div class="working-hours col-md-6 container mt-5 border border-secondary border-3 ">
+        <div class="row information">
+            <div class="working-hours col-md-6 container mt-5 border border-secondary border-3">
                 <p class="time">
                     We are open from Monday - Friday <br> 8.00AM - 10.00PM <br> and Saturday from 8.00AM - 6.00PM!
                 </p>
             </div>
 
             <div class="adress-bar col-md-6 container mt-5 border border-secondary border-3 pt-1">
-                <p class="adress">
-                    2872  University Street,  
-                    Seattle  Washington <br>    
-                    98155, 206-365-1536.
+                <p class="adress"> We have a special seminar just for this week...Please Subscribe
                 </p>
-                <a href="#"><p class="email-p">visionlibrary@gmail.com</p></a>
+               <a href="#"><button class="btn btn-subscribe text-white bg-success border">Subscrirbe</button></a> 
+                <a href="#"><p class="email-p pt-2">visionlibrary@gmail.com</p></a>
                 <a href="#"><p class="email-p">www.visionlibrary.com</p></a>
 
             </div>
@@ -136,7 +137,7 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-4 pt-2 parent">
-                            <img src="./img/cube-bg.jpg" alt="" class="img-fluid author-img1">
+                            <img src="./img/cube-bg.jpg" alt="" class="img-fluid author-img1 d-none d-lg-block d-xl-block">
                             <img src="./img/Gregg_olsen.jpg" alt="" class="img-fluid author-img2">
                         </div>
                         <div class="col-md-8 ">
@@ -155,7 +156,7 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-4 pt-2 parent">
-                            <img src="./img/cube-bg.jpg" alt="" class="img-fluid author-img1">
+                            <img src="./img/cube-bg.jpg" alt="" class="img-fluid author-img1 d-none d-lg-block d-xl-block">
                             <img src="./img/steve-jobs.jpg" alt="" class="img-fluid author-img2">
                         </div>
                         <div class="col-md-8 ">
@@ -163,7 +164,7 @@
                                <a href="#" class="text-dark" ><h4 class="author-title">Steve Jobs - Bio</h4></a> 
                             </div>
                             <div class="row author-bio">
-                                <p class="author-top-p">Steven Paul Jobs (/dʒɒbz/; February 24, 1955 – October 5, 2011) was an American business magnate, industrial designer, investor, and media proprietor.</p>
+                                <p class="author-top-p">Steven Paul Jobs February 24, 1955 – October 5, 2011) was an American business magnate, industrial designer, investor, and media proprietor.</p>
                             </div>
                             <div class="row author-bottom-p author-bio">
                                 <p>He was the chairman, chief executive officer (CEO), and co-founder of Apple Inc., the chairman and majority shareholder of Pixar, a member of The Walt Disney Company's board of directors following its acquisition of Pixar, and the founder, chairman, and CEO of NeXT. Jobs is widely recognized as a pioneer of the personal computer revolution of the 1970s and 1980s, along with Apple co-founder Steve Wozniak.</p>
@@ -176,7 +177,7 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-4 pt-2 parent">
-                            <img src="./img/cube-bg.jpg" alt="" class="img-fluid author-img1">
+                            <img src="./img/cube-bg.jpg" alt="" class="img-fluid author-img1 d-none d-lg-block d-xl-block">
                             <img src="./img/wiliamshakespere.jpg" alt="" class="img-fluid author-img2">
                         </div>
                         <div class="col-md-8 ">
@@ -195,7 +196,7 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-4 pt-2 parent">
-                            <img src="./img/cube-bg.jpg" alt="" class="img-fluid author-img1">
+                            <img src="./img/cube-bg.jpg" alt="" class="img-fluid author-img1 d-none d-lg-block d-xl-block">
                             <img src="./img/james-paterson.jpeg" alt="" class="img-fluid author-img2">
                         </div>
                         <div class="col-md-8 ">
@@ -216,7 +217,7 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-4 pt-2 parent">
-                            <img src="./img/cube-bg.jpg" alt="" class="img-fluid author-img1">
+                            <img src="./img/cube-bg.jpg" alt="" class="img-fluid author-img1 d-none d-lg-block d-xl-block">
                             <img src="./img/waynedyer.jpg" alt="" class="img-fluid author-img2">
                         </div>
                         <div class="col-md-8 ">
@@ -235,7 +236,7 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-4 pt-2 parent">
-                            <img src="./img/cube-bg.jpg" alt="" class="img-fluid author-img1">
+                            <img src="./img/cube-bg.jpg" alt="" class="img-fluid author-img1 d-none d-lg-block d-xl-block">
                             <img src="./img/Judy-Blume.jpg" alt="" class="img-fluid author-img2">
                         </div>
                         <div class="col-md-8 ">
@@ -256,7 +257,7 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-4 pt-2 parent">
-                            <img src="./img/cube-bg.jpg" alt="" class="img-fluid author-img1">
+                            <img src="./img/cube-bg.jpg" alt="" class="img-fluid author-img1 d-none d-lg-block d-xl-block">
                             <img src="./img/alan-moore.jpeg" alt="" class="img-fluid author-img2">
                         </div>
                         <div class="col-md-8 ">
@@ -275,7 +276,7 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-4 pt-2 parent">
-                            <img src="./img/cube-bg.jpg" alt="" class="img-fluid author-img1">
+                            <img src="./img/cube-bg.jpg" alt="" class="img-fluid author-img1 d-none d-lg-block d-xl-block">
                             <img src="./img/jk-rowling.jpg" alt="" class="img-fluid author-img2">
                         </div>
                          <div class="col-md-8 ">
@@ -294,6 +295,80 @@
             </div>
         </div>
     </main> 
+
+    <!--Footer-->
+
+    <footer class="container footer flex pt-5">
+          <ul class="footer-top nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><img
+                  src="./img/facebook.png"
+                  alt="facebook"
+                  class="img-fluid nav-icons"  
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><img
+                  src="./img/twitter.png"
+                  alt="twitter"
+                  class="img-fluid nav-icons"  
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><img
+                  src="./img/youtube.png"
+                  alt="youtube"
+                  class="img-fluid nav-icons"  
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><img
+                  src="./img/instagram.png"
+                  alt="instagram"
+                  class="img-fluid nav-icons"  
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><img
+                  src="./img/pinterest.png"
+                  alt="pinterest"
+                  class="img-fluid nav-icons"  
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><img src="./img/wifi.png" alt="wifi" class="img-fluid nav-icons"  
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><img src="./img/mail.png" alt="mail" class="img-fluid nav-icons"  
+              /></a>
+            </li>
+          </ul>
+        
+          <ul class="nav footer-bottom">
+            <li class="nav-item">
+              <a class="nav-link nav-b" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-b" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-b" href="#">Top Rated</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-b" href="#">Contact</a>
+            </li>
+          </ul>
+          
+            <p class="follow-p">Folow Us....Once you learn to read, you will be forever free.</p>
+      </footer>
     
     
 </body>

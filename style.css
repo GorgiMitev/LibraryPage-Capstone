@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 
-*::before {
-    box-sizing: border-box;
+body {
+    overflow-x: hidden;
 }
 
 /* Nav-bar */
@@ -19,6 +19,11 @@ a {
 
 .nav-top {
     width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: white;   
+    height: 4rem;
 }
 
 .behance {
@@ -64,7 +69,8 @@ a {
 .search:focus { text-align: center;}
 
 .btn-login,
-.btn-sign-up {
+.btn-sign-up,
+.btn-subscribe {
     font-size: 0.9rem;
     font-weight: bold;
     border-bottom-right-radius: 40px;
@@ -73,8 +79,15 @@ a {
     border-top-left-radius: 40px;
 }
 
+.btn-subscribe:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    font-size: 1.2rem;
+    box-shadow: 0px 1px 0px 0px;
+  }
+
 .nav-right {
-    padding-right: 1rem;
+    padding-right: rem;
 }
 
 .btn-sign-up {
@@ -110,7 +123,6 @@ main::before {
     background-repeat: no-repeat;
     background-position: center; 
 }
-
 
 .library-logo {
     width: 40rem;
@@ -152,8 +164,6 @@ main::before {
   .working-hours {
     background-color: rgba(250, 250, 250, 0.8);
     width: 30%;
-    float: left;
-    margin-left: 15rem;
   }
 
   .time {
@@ -204,7 +214,7 @@ main::before {
       font-size: 1.5rem;
       transition-property: font-size;
       transition-duration: 2s;
-      transition-delay: 1s;
+      transition-delay: 0.5s;
   }
 
   .specific-category:hover {
@@ -246,13 +256,14 @@ main::before {
   }
 
   .author-img2 {
-      height: 14rem;
+      height: 13rem;
       width : 9rem;
+      padding-left: 4px;
   }
 
   .author-img1 {
     height: 10rem;
-    padding-left: 12px;
+    padding-left: 8px;
     opacity: 1.4;
 }
 
@@ -289,7 +300,104 @@ main::before {
     padding-top: 20px;
     border-bottom: 1px solid rgb(7, 7, 7);
   }
+
+  /* Footer */
+
+  .footer{
+    background-color: rgb(19, 19, 19);
+    height: 15rem;
+    text-align: center;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-top,
+  .footer-bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .nav-icons {
+      width: 4rem;
+  }
+
+  .nav-b {
+      color: white;
+      font-size: 1.2rem;
+  }
+
+  .follow-p {
+    color: white;
+    font-size: 1rem;
+    transition-property: font-size;
+      transition-duration: 3s;
+      transition-delay: 0.5s; 
+  }
+
+  .follow-p:hover {
+      font-size: 1.4rem;
+      font-family: 'Permanent Marker', cursive;
+  }
+
+/* Media-Query Mobile */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+
+    .information {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-top {
+        height: 10rem;
+    }
+
+    .adress-bar,
+    .working-hours {
+        width: 100%;
+    }
+
+    .has-search {
+        width: 100%;
+    }
+
+    .nav-left {
+        text-align: center;
+    }
+
+    .logo-title {
+        font-size: 60px;
+        margin-top: 4rem;
+    }
+
+    .author-img2 {
+        position: relative;
+        float: center;
+        width: 15rem;
+        margin-bottom: 45px;
+        margin-right: 45px;
+    }
+
+    .follow-p {
+        color: Black;
+        font-family: 'Permanent Marker', cursive;
+        font-weight: bold;
+    }
+
+    .nav-icons {
+        width: 2.2rem;
+    }
+    
+}
+
+
+
   
+
 
 
 
