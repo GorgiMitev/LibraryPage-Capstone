@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
 
 * {
   box-sizing: border-box;
@@ -100,181 +100,188 @@ a {
 /* Main */
 
 main::before {
-    content: "";
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    background: center center / cover no-repeat;
-    background-image:
-      linear-gradient(115deg, rgba(173, 169, 150, 0.8), rgba(242, 242, 242, 0.7)),
-      url(/img/library-background.jpeg);
-  }
+  content: "";
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: center center / cover no-repeat;
+  background-image: linear-gradient(
+      115deg,
+      rgba(173, 169, 150, 0.8),
+      rgba(242, 242, 242, 0.7)
+    ),
+    url(/img/library-background.jpeg);
+}
 
-  /* Section-1 */
+/* Section-1 */
 
-  .section-1 {
-      background: center center / cover no-repeat;
-      background-image: url(/img/gray-bg.webp);
-      border-radius: 5px;
-      color: white;
-  }
+.section-1 {
+  background: center center / cover no-repeat;
+  background-image: url(/img/gray-bg.webp);
+  border-radius: 5px;
+  color: white;
+}
 
-  .main-title,
-  .ticket-option,
-  .article {
-      color: black;
-      font-family: 'Akaya Telivigala', cursive;
-  }
+.main-title,
+.ticket-option,
+.article {
+  color: black;
+  font-family: "Akaya Telivigala", cursive;
+}
 
-  .ticket-option {
-      font-size: 1.2rem;
-      color: darkblue;
-      width: 50%;
-      height: 2.3rem;
-  }
+.ticket-option {
+  font-size: 1.2rem;
+  color: darkblue;
+  width: 50%;
+  height: 2.3rem;
+}
 
-  .main-title::after {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 10%;
-    padding-top: 15px;
-    border-bottom: 1px solid red;
-  }
+.main-title::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  padding-top: 15px;
+  border-bottom: 1px solid red;
+}
 
-  .ticket-p::before {
-      content: "•"; 
-      color: red;
-      display: inline-block;
-      width: 1em;
-      margin-left: -1em;
-      margin-top: 0.25em;}
+.ticket-p::before {
+  content: "•";
+  color: red;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  margin-top: 0.25em;
+}
 
-  .step-1 {
-      color: red;
-  }
+.step-1 {
+  color: red;
+}
 
-  .article {
-      width: 50%;
-      color: darkblue;
-      font-size: 1.1rem;
-  }
+.article {
+  width: 50%;
+  color: darkblue;
+  font-size: 1.1rem;
+}
 
-  .about {
-      color: red;
-  }
+.about {
+  color: red;
+}
 
-  .about:hover {
-      color: red;
-      font-size: 2rem;
-      transition-property: font-size;
-      transition-duration: 3s;
-      transition-delay: 0.2s;
-  }
+.about:hover {
+  color: red;
+  font-size: 2rem;
+  transition-property: font-size;
+  transition-duration: 3s;
+  transition-delay: 0.2s;
+}
 
-  .table {
-    border-style: dashed double none;
-    border-color: blue;
-    margin-top: 20px;   
-  }
+.table {
+  border-style: dashed double none;
+  border-color: blue;
+  margin-top: 20px;
+}
 
-  table > thead > tr > th{
-    border: 2px solid blue;
-  }
+table > thead > tr > th {
+  border: 2px solid blue;
+}
 
-  table > tbody > tr > td{
-    border:2px solid blue;
-  }
+table > tbody > tr > td {
+  border: 2px solid blue;
+}
 
-  .date {
-      color:chocolate;
-      font-weight: bold;
-  }
+.date {
+  color: chocolate;
+  font-weight: bold;
+}
 
-  /* Section-2 */
+/* Section-2 */
 
 .section-2 {
-    background-color: rgb(241, 224, 224);
+  background-color: rgb(241, 224, 224);
 }
 
 .menu-title {
-    font-family: "Permanent Marker", cursive;
+  font-family: "Permanent Marker", cursive;
 }
 
 #table-1,
 #table-2 {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
-#table-1 > thead > tr > th{
-    border: 1px solid black;
-  }
+#table-1 > thead > tr > th {
+  border: 1px solid black;
+}
 
-#table-1 > tbody > tr > td{
-    border: 1px solid black;
-  }
+#table-1 > tbody > tr > td {
+  border: 1px solid black;
+}
 
 .table-tr {
-    background: linear-gradient(rgba(173, 169, 150, 0.8), rgba(242, 242, 242, 0.7));
-    height: 2.5rem;
-  }
+  background: linear-gradient(
+    rgba(173, 169, 150, 0.8),
+    rgba(242, 242, 242, 0.7)
+  );
+  height: 2.5rem;
+}
 
-#table-2 > thead > tr > th{
-    border: 1px solid black;
-  }
+#table-2 > thead > tr > th {
+  border: 1px solid black;
+}
 
-#table-2 > tbody > tr > td{
-    border: 1px solid black;
-  }
+#table-2 > tbody > tr > td {
+  border: 1px solid black;
+}
 
-  .btn-checkout {
-      width: 15rem;
-  }
+.btn-checkout {
+  width: 15rem;
+}
 
-  /* Footer */
+/* Footer */
 
 .footer {
-    background-color: rgb(19, 19, 19);
-    height: 15rem;
-    text-align: center;
-  }
-  
-  .flex {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .footer-top,
-  .footer-bottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .nav-icons {
-    width: 4rem;
-  }
-  
-  .nav-b {
-    color: white;
-    font-size: 1.2rem;
-  }
-  
-  .follow-p {
-    color: white;
-    font-size: 1rem;
-    transition-property: font-size;
-    transition-duration: 3s;
-    transition-delay: 0.5s;
-  }
-  
-  .follow-p:hover {
-    font-size: 1.4rem;
-    font-family: "Permanent Marker", cursive;
-  }
+  background-color: rgb(19, 19, 19);
+  height: 15rem;
+  text-align: center;
+}
 
-  /* Media-Query Mobile */
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top,
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-icons {
+  width: 4rem;
+}
+
+.nav-b {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.follow-p {
+  color: white;
+  font-size: 1rem;
+  transition-property: font-size;
+  transition-duration: 3s;
+  transition-delay: 0.5s;
+}
+
+.follow-p:hover {
+  font-size: 1.4rem;
+  font-family: "Permanent Marker", cursive;
+}
+
+/* Media-Query Mobile */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
   .nav-top {
@@ -326,7 +333,6 @@ main::before {
   .nav-icons {
     width: 2.2rem;
   }
-
 }
 
 /* Tablet-mode media query */
