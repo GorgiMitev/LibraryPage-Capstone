@@ -217,8 +217,7 @@ table > tbody > tr > td {
 }
 
 .table-tr {
-  background:
-    linear-gradient(rgba(173, 169, 150, 0.8), rgba(242, 242, 242, 0.7));
+  background: linear-gradient(rgba(173, 169, 150, 0.8), rgba(242, 242, 242, 0.7));
   height: 2.5rem;
 }
 
