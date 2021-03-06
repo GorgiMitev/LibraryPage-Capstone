@@ -273,3 +273,58 @@ main::before {
     font-size: 1.4rem;
     font-family: "Permanent Marker", cursive;
   }
+
+  /* Media-Query Mobile */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .nav-top {
+    height: 10rem;
+  }
+
+  .has-search {
+    width: 100%;
+  }
+
+  .nav-left {
+    text-align: center;
+  }
+
+  .logo-title {
+    font-size: 60px;
+    margin-top: 4rem;
+    padding-top: 1rem;
+  }
+
+  main {
+    padding-top: 5rem;
+  }
+
+  .ticket-option {
+    width: 100%;
+    height: 4rem;
+  }
+
+  .article {
+    width: 100%;
+  }
+
+  .date,
+  .ticket {
+    font-size: 0.6rem;
+  }
+
+  .form-check-label {
+    font-size: 0.8rem;
+  }
+
+  .follow-p {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    font-weight: bold;
+  }
+
+  .nav-icons {
+    width: 2.2rem;
+  }
+
+}
