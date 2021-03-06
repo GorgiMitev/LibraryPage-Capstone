@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
 
 * {
   box-sizing: border-box;
@@ -110,175 +111,126 @@ main::before {
     url(/img/library-background.jpeg);
 }
 
-.library-logo {
-  width: 40rem;
-  height: 25rem;
-  margin-left: 5rem;
-}
+/* Section-1 */
 
-/* Main-title */
-
-.logo-title {
-  text-align: center;
-  font-family: "Oswald", Helvetica, sans-serif;
-  font-size: 80px;
-  transform: skewY(-10deg);
-  letter-spacing: 4px;
-  word-spacing: -8px;
-  color: tomato;
-  transition: width 2s, height 2s, background-color 2s, transform 2s;
-  text-shadow:
-    -1px -1px 0 firebrick,
-    -2px -2px 0 firebrick,
-    -3px -3px 0 firebrick,
-    -4px -4px 0 firebrick,
-    -5px -5px 0 firebrick,
-    -6px -6px 0 firebrick,
-    -7px -7px 0 firebrick,
-    -8px -8px 0 firebrick,
-    -30px 20px 40px dimgrey;
-}
-
-.vision {
-  color: blue !important;
-}
-
-.logo-title:hover {
-  transform: rotate(360deg);
-}
-
-.working-hours {
-  background-color: rgba(250, 250, 250, 0.8);
-  width: 30%;
-}
-
-.time {
-  color: rgb(233, 27, 27, 0.6);
-  font-size: 20px;
-  font-weight: bold;
-  font-family: "Permanent Marker", cursive;
-  line-height: 3rem;
-  word-spacing: 2px;
-}
-
-.adress-bar {
-  width: 30%;
-  font-size: 20px;
-}
-
-.adress {
-  font-weight: bold;
-}
-
-.email-p:hover {
-  font-size: 30px;
-  color: rgb(233, 27, 27, 0.6);
-  font-family: "Permanent Marker", cursive;
-}
-
-/* Category Section */
-
-.category-section {
-  background: url(./img/bg-img-category.jpg) center center / cover no-repeat;
-  text-align: center;
-  border-radius: 8px;
+.section-1 {
+  background: center center / cover no-repeat;
+  background-image: url(/img/gray-bg.webp);
+  border-radius: 5px;
   color: white;
 }
 
-.category-title {
-  text-align: center;
-  font-size: 2.5rem;
-  color: white;
+.main-title,
+.ticket-option,
+.article {
+  color: black;
+  font-family: "Akaya Telivigala", cursive;
 }
 
-.category-logo {
-  width: 10rem;
-}
-
-.specific-category {
-  color: rgb(190, 190, 79);
-  font-size: 1.5rem;
-  transition-property: font-size;
-  transition-duration: 2s;
-  transition-delay: 0.5s;
-}
-
-.specific-category:hover {
-  font-size: 2rem;
-}
-
-.top-rated {
-  font-size: 1.5rem;
-  color: white;
-}
-
-.top-rated:hover {
-  text-decoration: underline;
-}
-
-.category-p {
-  color: white;
+.ticket-option {
   font-size: 1.2rem;
+  color: darkblue;
+  width: 50%;
+  height: 2.3rem;
 }
 
-/* authors section */
-
-.authors {
-  background-color: white;
-  text-align: center;
-}
-
-.author-title {
-  font-weight: bold;
-}
-
-.author-title::after {
+.main-title::after {
   content: "";
   display: block;
   margin: 0 auto;
   width: 10%;
-  padding-top: 20px;
+  padding-top: 15px;
   border-bottom: 1px solid red;
 }
 
-.author-img2 {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  height: 13rem;
-  width: 9rem;
-  padding-left: 4px;
+.ticket-p::before {
+  content: "•";
+  color: red;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  margin-top: 0.25em;
 }
 
-.author-img1 {
-  height: 10rem;
-  padding-left: 8px;
-  opacity: 1.4;
-  position: relative;
-  top: 0;
-  left: 0;
-}
-
-.parent {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-
-.author-bio {
-  text-align: left;
-}
-
-.author-top-p {
+.step-1 {
   color: red;
 }
 
-.author-top-p::after {
-  content: "";
-  display: block;
-  width: 10%;
-  padding-top: 20px;
-  border-bottom: 1px solid rgb(7, 7, 7);
+.article {
+  width: 50%;
+  color: darkblue;
+  font-size: 1.1rem;
+}
+
+.about {
+  color: red;
+}
+
+.about:hover {
+  color: red;
+  font-size: 2rem;
+  transition-property: font-size;
+  transition-duration: 3s;
+  transition-delay: 0.2s;
+}
+
+.table {
+  border-style: dashed double none;
+  border-color: blue;
+  margin-top: 20px;
+}
+
+table > thead > tr > th {
+  border: 2px solid blue;
+}
+
+table > tbody > tr > td {
+  border: 2px solid blue;
+}
+
+.date {
+  color: chocolate;
+  font-weight: bold;
+}
+
+/* Section-2 */
+
+.section-2 {
+  background-color: rgb(241, 224, 224);
+}
+
+.menu-title {
+  font-family: "Permanent Marker", cursive;
+}
+
+#table-1,
+#table-2 {
+  border: 1px solid black;
+}
+
+#table-1 > thead > tr > th {
+  border: 1px solid black;
+}
+
+#table-1 > tbody > tr > td {
+  border: 1px solid black;
+}
+
+.table-tr {
+  background: linear-gradient(rgba(173, 169, 150, 0.8), rgba(242, 242, 242, 0.7));
+  height: 2.5rem;
+}
+
+#table-2 > thead > tr > th {
+  border: 1px solid black;
+}
+
+#table-2 > tbody > tr > td {
+  border: 1px solid black;
+}
+
+.btn-checkout {
+  width: 15rem;
 }
 
 /* Footer */
@@ -326,18 +278,8 @@ main::before {
 /* Media-Query Mobile */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
-  .information {
-    display: flex;
-    flex-direction: column;
-  }
-
   .nav-top {
     height: 10rem;
-  }
-
-  .adress-bar,
-  .working-hours {
-    width: 100%;
   }
 
   .has-search {
@@ -354,11 +296,26 @@ main::before {
     padding-top: 1rem;
   }
 
-  .author-img2 {
-    position: relative;
-    width: 15rem;
-    margin-bottom: 45px;
-    margin-right: 45px;
+  main {
+    padding-top: 5rem;
+  }
+
+  .ticket-option {
+    width: 100%;
+    height: 4rem;
+  }
+
+  .article {
+    width: 100%;
+  }
+
+  .date,
+  .ticket {
+    font-size: 0.6rem;
+  }
+
+  .form-check-label {
+    font-size: 0.8rem;
   }
 
   .follow-p {
@@ -391,19 +348,6 @@ main::before {
     width: 100%;
     margin-top: 0;
     padding-right: 14rem;
-  }
-
-  main {
-    padding-top: 2rem;
-  }
-
-  .author-img2 {
-    position: relative;
-    float: left;
-    width: 12rem;
-    height: 8rem;
-    padding-top: 1.5rem;
-    padding-right: 1.5rem;
   }
 
   .follow-p {
