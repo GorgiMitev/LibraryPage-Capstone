@@ -100,178 +100,181 @@ a {
 /* Main */
 
 main::before {
-    content: "";
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    background: center center / cover no-repeat;
-    background-image:
-      linear-gradient(115deg, rgba(173, 169, 150, 0.8), rgba(242, 242, 242, 0.7)),
-      url(/img/library-background.jpeg);
-  }
+  content: "";
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: center center / cover no-repeat;
+  background-image: linear-gradient(
+      115deg,
+      rgba(173, 169, 150, 0.8),
+      rgba(242, 242, 242, 0.7)
+    ),
+    url(/img/library-background.jpeg);
+}
 
-  .logo-title {
-    text-align: center;
-    font-family: "Oswald", Helvetica, sans-serif;
-    font-size: 50px;
-    transform: skewY(-10deg);
-    letter-spacing: 4px;
-    word-spacing: -8px;
-    color: tomato;
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
-    text-shadow:
-      -1px -1px 0 firebrick,
-      -2px -2px 0 firebrick,
-      -3px -3px 0 firebrick,
-      -4px -4px 0 firebrick,
-      -5px -5px 0 firebrick,
-      -6px -6px 0 firebrick,
-      -7px -7px 0 firebrick,
-      -8px -8px 0 firebrick,
-      -30px 20px 40px dimgrey;
-  }
-  
-  .vision {
-    color: blue !important;
-  }
+.logo-title {
+  text-align: center;
+  font-family: "Oswald", Helvetica, sans-serif;
+  font-size: 50px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick, -4px -4px 0 firebrick, -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick, -7px -7px 0 firebrick, -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
 
-  .logo-title:hover {
-    transform: rotate(360deg);
-  }
+.vision {
+  color: blue !important;
+}
 
-  .logo-title::after {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 3%;
-    padding-top: 15px;
-    border-bottom: 1px solid red;
-  }
+.logo-title:hover {
+  transform: rotate(360deg);
+}
 
-  .article {
-      letter-spacing: 1px;
-      line-height: 1.5rem;
-  }
+.logo-title::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 3%;
+  padding-top: 15px;
+  border-bottom: 1px solid red;
+}
 
-  .email-p {
-    font-weight: bold;
-  }
- 
-  .email {
-    font-size: 20px;
-  }
+.article {
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+}
 
-  .email:hover {
-    font-size: 30px;
-    color: rgb(233, 27, 27, 0.6);
-    font-family: "Permanent Marker", cursive;
-  }
+.email-p {
+  font-weight: bold;
+}
 
-  /* Logo Section */
+.email {
+  font-size: 20px;
+}
 
-  .logo-title-1 {
-    color: black;
-    font-family: "Akaya Telivigala", cursive;
-  }
+.email:hover {
+  font-size: 30px;
+  color: rgb(233, 27, 27, 0.6);
+  font-family: "Permanent Marker", cursive;
+}
 
-  .logo-p {
-      width: 50%;
-      margin: 0 auto;
-  }
+/* Logo Section */
 
-  .logo-title-1::after {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 5%;
-    padding-top: 15px;
-    border-bottom: 1px solid red;
-  }
+.logo-title-1 {
+  color: black;
+  font-family: "Akaya Telivigala", cursive;
+}
 
-  .places {
-      display: flex;
-      justify-content: center;
-      height: 20rem;
-  }
+.logo-p {
+  width: 50%;
+  margin: 0 auto;
+}
 
-  .buenos {
-    background-image:
-    linear-gradient(115deg, rgba(161, 125, 125, 0.8), rgba(170, 30, 30, 0.7)),
+.logo-title-1::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 5%;
+  padding-top: 15px;
+  border-bottom: 1px solid red;
+}
+
+.places {
+  display: flex;
+  justify-content: center;
+  height: 20rem;
+}
+
+.buenos {
+  background-image: linear-gradient(
+      115deg,
+      rgba(161, 125, 125, 0.8),
+      rgba(170, 30, 30, 0.7)
+    ),
     url(/img/people-buenos.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 20rem;
-    color: white;
-    text-align: center;
-  }
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20rem;
+  color: white;
+  text-align: center;
+}
 
-  .warsaw {
-    background-image:
-    linear-gradient(115deg, rgba(161, 125, 125, 0.8), rgba(170, 30, 30, 0.7)),
+.warsaw {
+  background-image: linear-gradient(
+      115deg,
+      rgba(161, 125, 125, 0.8),
+      rgba(170, 30, 30, 0.7)
+    ),
     url(/img/people-warsaw.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 20rem;
-    color: white;
-    text-align: center;
-  }
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20rem;
+  color: white;
+  text-align: center;
+}
 
-  .date {
-    font-size: 2rem;
-  }
+.date {
+  font-size: 2rem;
+}
 
-  /* Footer */
+/* Footer */
 
 .footer {
-    background-color: rgb(19, 19, 19);
-    height: 15rem;
-    text-align: center;
-  }
-  
-  .flex {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .footer-top,
-  .footer-bottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .nav-icons {
-    width: 4rem;
-  }
-  
-  .nav-b {
-    color: white;
-    font-size: 1.2rem;
-  }
-  
-  .follow-p {
-    color: white;
-    font-size: 1rem;
-    transition-property: font-size;
-    transition-duration: 3s;
-    transition-delay: 0.5s;
-  }
-  
-  .follow-p:hover {
-    font-size: 1.4rem;
-    font-family: "Permanent Marker", cursive;
-  }
+  background-color: rgb(19, 19, 19);
+  height: 15rem;
+  text-align: center;
+}
 
-  /* Media-Query Mobile */
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top,
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-icons {
+  width: 4rem;
+}
+
+.nav-b {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.follow-p {
+  color: white;
+  font-size: 1rem;
+  transition-property: font-size;
+  transition-duration: 3s;
+  transition-delay: 0.5s;
+}
+
+.follow-p:hover {
+  font-size: 1.4rem;
+  font-family: "Permanent Marker", cursive;
+}
+
+/* Media-Query Mobile */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
   header {
     margin-bottom: 10rem;
   }
-  
+
   .nav-top {
     height: 10rem;
   }
@@ -307,7 +310,7 @@ main::before {
   header {
     margin-bottom: 2rem;
   }
-  
+
   .nav-top {
     display: flex;
     flex-direction: column;
