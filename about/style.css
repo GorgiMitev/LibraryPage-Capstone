@@ -106,11 +106,8 @@ main::before {
   width: 100%;
   z-index: -1;
   background: center center / cover no-repeat;
-  background-image: linear-gradient(
-      115deg,
-      rgba(173, 169, 150, 0.8),
-      rgba(242, 242, 242, 0.7)
-    ),
+  background-image:
+    linear-gradient(115deg, rgba(173, 169, 150, 0.8), rgba(242, 242, 242, 0.7)),
     url(/img/library-background.jpeg);
 }
 
@@ -123,9 +120,15 @@ main::before {
   word-spacing: -8px;
   color: tomato;
   transition: width 2s, height 2s, background-color 2s, transform 2s;
-  text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick,
-    -3px -3px 0 firebrick, -4px -4px 0 firebrick, -5px -5px 0 firebrick,
-    -6px -6px 0 firebrick, -7px -7px 0 firebrick, -8px -8px 0 firebrick,
+  text-shadow:
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
     -30px 20px 40px dimgrey;
 }
 
@@ -193,11 +196,8 @@ main::before {
 }
 
 .buenos {
-  background-image: linear-gradient(
-      115deg,
-      rgba(161, 125, 125, 0.8),
-      rgba(170, 30, 30, 0.7)
-    ),
+  background-image:
+    linear-gradient(115deg, rgba(161, 125, 125, 0.8), rgba(170, 30, 30, 0.7)),
     url(/img/people-buenos.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -208,11 +208,8 @@ main::before {
 }
 
 .warsaw {
-  background-image: linear-gradient(
-      115deg,
-      rgba(161, 125, 125, 0.8),
-      rgba(170, 30, 30, 0.7)
-    ),
+  background-image:
+    linear-gradient(115deg, rgba(161, 125, 125, 0.8), rgba(170, 30, 30, 0.7)),
     url(/img/people-warsaw.jpeg);
   background-repeat: no-repeat;
   background-position: center;
