@@ -70,4 +70,4 @@ This project is [MIT](lic.url) licensed.
 
 ## Video presentation of the web page
 
-[Link to the video] ()
+[Link to the video](https://www.youtube.com/watch?v=Dv87MyveyNY)
