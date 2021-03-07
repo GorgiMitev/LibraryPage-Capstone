@@ -136,6 +136,10 @@ main::before {
     color: blue !important;
   }
 
+  .logo-title:hover {
+    transform: rotate(360deg);
+  }
+
   .logo-title::after {
     content: "";
     display: block;
@@ -219,7 +223,6 @@ main::before {
     font-size: 2rem;
   }
 
-
   /* Footer */
 
 .footer {
@@ -261,3 +264,70 @@ main::before {
     font-size: 1.4rem;
     font-family: "Permanent Marker", cursive;
   }
+
+  /* Media-Query Mobile */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  header {
+    margin-bottom: 10rem;
+  }
+  
+  .nav-top {
+    height: 10rem;
+  }
+
+  .has-search {
+    width: 100%;
+  }
+
+  .nav-left {
+    text-align: center;
+  }
+
+  .logo-title {
+    font-size: 30px;
+    margin-top: 4rem;
+    padding-top: 1rem;
+  }
+
+  .follow-p {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    font-weight: bold;
+  }
+
+  .nav-icons {
+    width: 2.2rem;
+  }
+}
+
+/* Tablet-mode media query */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  header {
+    margin-bottom: 2rem;
+  }
+  
+  .nav-top {
+    display: flex;
+    flex-direction: column;
+    height: 7rem;
+  }
+
+  .nav-left {
+    width: 100%;
+    margin-bottom: 0;
+    padding-left: 10rem;
+  }
+
+  .nav-right {
+    width: 100%;
+    margin-top: 0;
+    padding-right: 14rem;
+  }
+
+  .follow-p {
+    color: white;
+    font-size: 1.2rem;
+  }
+}
