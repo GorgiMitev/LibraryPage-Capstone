@@ -11,10 +11,10 @@
 </head>
 <body>
    <header>
-    <nav class="nav nav-top bg-dark d-flex justify-content-end">
-        <ul class="col-md-4 nav nav-left pt-2 text-light">
+    <nav class="nav nav-top bg-dark justify-content-end">
+        <ul class="nav pt-2 text-light col-11 col-md-6 d-flex justify-content-sm-start">
             <li class="nav-item p-1 m-1">
-            <a class="nav-item" href="#"><img class="img-fluid top-nav-icon" src="./img/twitter.png" alt="twitter logo"></a>
+                <a class="nav-item" href="#"><img class="img-fluid top-nav-icon" src="./img/twitter.png" alt="twitter logo"></a>
             </li>
             <li class="nav-item m-1 p-1">
                 <a class="nav-item" href="#"><i class="fab fa-facebook-f fb-icon mt-2"></i></a>
@@ -35,13 +35,13 @@
 
        <!--Navbar-left-->
 
-       <div class="nav-left col-md-3 d-flex justify-content-around">
-            <div class="form-group has-search pt-3 d-md-none d-lg-block">
+       <div class="nav-left col-md-12 col-lg-3 d-flex justify-content-around">
+            <div class="form-group has-search pt-3 col-md-5">
                 <span class="fa fa-search form-control-feedback"></span>
                 <input type="text" class="form-control search" placeholder="Search..."> 
             </div>    
-            <ul class="nav">
-                <li class="nav-item pt-3">
+            <ul class="nav nav-logo">
+                <li class="nav-item pt-3 d-none d-md-none d-xl-block">
                     <a class="vision-text noHover" href="#"><img class="img-fluid vision-logo" src="./img/binoculars.png" alt="vision-logo">Vision</a>
                 </li>
             </ul>
@@ -50,7 +50,7 @@
         <!--Navbar-right-->
         <ul class="col-md-6 nav nav-right mb-1 mt-1">
             <li class="nav-item noHover">
-                <a class="nav-link behance d-none d-md-block d-xl-block" href="#">Vision Library</a>
+                <a class="nav-link behance d-none d-md-none d-xl-block" href="#">Vision Library</a>
             </li>
             <li class="nav-item pt-1 ">
                 <a class="nav-link" id="about" href="/about/about.html">About</a>
@@ -81,15 +81,15 @@
     </header>
     <!--Main-->
 
-    <main class="mt-1">
-        <div class="main-section container-fluid bg-light pb-3">
+    <main>
+        <div class="main-section container-fluid bg-light pb-3 pt-5">
             <div class="container-fluid">
-                <div class="row justify-content-around pt-5">
-                    <div class="col-md-4 library-box">
+                <div class="row justify-content-around pt-5 logo-section">
+                    <div class="col-md-6 col-xl-4 library-box">
                         <img src="./img/binacular-logo.jpg" alt="library-logo" class="library-logo img-fluid pt-5 d-none d-md-block d-lg-block">
                     </div>
-                    <div class="col-md-5">
-                        <h3 class="logo-title pt-5 text-uppercase text-sm-center" >Welcome to <span class='vision' >Vision </span><br>when in doubt come to us!</h3>
+                    <div class="col-md-6 col-xl-5 library-title">
+                        <h1 class="logo-title pt-5 text-uppercase text-sm-center" >Welcome to <span class='vision' >Vision </span><br>when in doubt come to us!</h1>
                     </div>
                 </div>    
             </div>

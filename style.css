@@ -31,6 +31,14 @@ a {
   height: 3.3rem;
 }
 
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+}
+
 .behance {
   font-weight: bold;
   font-size: 1.2rem;
@@ -323,11 +331,8 @@ a {
   }
 
   .adress-bar,
-  .working-hours {
-    width: 100%;
-  }
-
-  .has-search {
+  .working-hours,
+  .search {
     width: 100%;
   }
 
@@ -362,26 +367,34 @@ a {
 /* Tablet-mode media query */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .nav-top {
+  header {
+    padding-bottom: 2rem;
+  }
+  
+  .nav-bottom {
+    height: 5rem;
     display: flex;
-    flex-direction: column;
-    height: 7rem;
+    flex-direction: row;
   }
 
-  .nav-left {
+  .nav-left,
+  .nav-right,
+  .has-search,
+  .search {
     width: 100%;
-    margin-bottom: 0;
-    padding-left: 10rem;
-  }
-
-  .nav-right {
-    width: 100%;
-    margin-top: 0;
-    padding-right: 14rem;
   }
 
   main {
+    width: 100%;
     padding-top: 2rem;
+  }
+
+  .library-box {
+    margin-right: 10rem;
+  }
+
+  .library-title {
+    width: 100%;
   }
 
   .author-img2 {
@@ -396,5 +409,33 @@ a {
   .follow-p {
     color: white;
     font-size: 1.2rem;
+  }
+}
+/* Media query laptop */
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  header {
+    padding-bottom: 2rem;
+  }
+  
+  .nav-bottom {
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-left,
+  .nav-right,
+  .search {
+    width: 100%;
+  }
+
+  .nav-right {
+    margin-left: 13rem;
+  }
+
+  main {
+    width: 100%;
+    padding-top: 2rem;
   }
 }
