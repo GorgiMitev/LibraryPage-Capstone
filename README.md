@@ -2,8 +2,6 @@
 
 # The Newsweek clone
 
-![screenshot](./app_screenshot.png)
-
 In this project we were making a clone of newsweek website using bootstrap framework.
 
 ## Built With
