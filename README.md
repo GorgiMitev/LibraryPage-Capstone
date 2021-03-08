@@ -15,7 +15,7 @@ In this project I was making a Library page, the inspiration for the library pag
 
 ## Live Demo
 
-[Live Demo Link](https://capstonelibrary-2995f5.netlify.app)
+[Live Demo Link](capstonelibrary.netlify.app)
 
 # Work Done
 
