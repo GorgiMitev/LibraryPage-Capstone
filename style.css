@@ -16,13 +16,19 @@ a {
   text-decoration: none;
 }
 
-.nav-top {
+.top-nav-icon {
+  width: 1.3rem;
+}
+
+.fb-icon {
+  color: white;
+  height: 2rem;
+}
+
+.nav-top,
+.nav-bottom {
   width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 2;
-  background-color: white;
-  height: 4rem;
+  height: 3.3rem;
 }
 
 .behance {
@@ -35,8 +41,7 @@ a {
 }
 
 .black-hover:hover {
-  text-decoration: underline;
-  text-decoration-color: black;
+  text-decoration: none;
   color: black;
 }
 
@@ -58,6 +63,7 @@ a {
 
 .search {
   height: 2rem;
+  width: 9rem;
   border-bottom-right-radius: 40px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
@@ -69,8 +75,6 @@ a {
   text-align: center;
 }
 
-.btn-login,
-.btn-sign-up,
 .btn-subscribe {
   font-size: 0.9rem;
   font-weight: bold;
@@ -79,36 +83,22 @@ a {
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
 }
-
-.btn-sign-up {
-  margin-right: 2rem;
-  margin-left: 0.4rem;
-  width: 6rem;
+#about, 
+#events {
+  color: red !important;
 }
 
 .vision-logo {
   padding-right: 0.5rem;
-  height: 1.4rem;
+  height: 2rem;
 }
 
 .vision-text {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
 /* Main */
-
-main::before {
-  content: "";
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  background: center center / cover no-repeat;
-  background-image:
-    linear-gradient(115deg, rgba(173, 169, 150, 0.8), rgba(242, 242, 242, 0.7)),
-    url(/img/library-background.jpeg);
-}
 
 .library-logo {
   width: 40rem;
@@ -121,12 +111,10 @@ main::before {
 .logo-title {
   text-align: center;
   font-family: "Oswald", Helvetica, sans-serif;
-  font-size: 80px;
-  transform: skewY(-10deg);
+  font-size: 50px;
   letter-spacing: 4px;
   word-spacing: -8px;
   color: tomato;
-  transition: width 2s, height 2s, background-color 2s, transform 2s;
   text-shadow:
     -1px -1px 0 firebrick,
     -2px -2px 0 firebrick,
@@ -181,7 +169,6 @@ main::before {
 .category-section {
   background: url(./img/bg-img-category.jpg) center center / cover no-repeat;
   text-align: center;
-  border-radius: 8px;
   color: white;
 }
 
@@ -331,7 +318,7 @@ main::before {
     flex-direction: column;
   }
 
-  .nav-top {
+  .nav-bottom {
     height: 10rem;
   }
 
@@ -344,7 +331,7 @@ main::before {
     width: 100%;
   }
 
-  .nav-left {
+  .nav-right {
     text-align: center;
   }
 
