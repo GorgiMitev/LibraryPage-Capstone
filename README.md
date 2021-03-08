@@ -1,8 +1,5 @@
-![](https://img.shields.io/badge/myapp-blueviolet)
 
-# The Newsweek clone
-
-![screenshot](./img/vision-library-scree.png)
+# Capstone Project/Conference Page clone
 
 In this project I was making a Library page, the inspiration for the library page was a conference page given by Cindy Shin in Behance.
 

@@ -40,7 +40,8 @@ header {
   background-color: white;
 }
 
-.behance {
+.behance,
+.vision-text {
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -102,11 +103,6 @@ header {
   height: 2rem;
 }
 
-.vision-text {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
 /* Main */
 
 main {
@@ -154,7 +150,8 @@ main {
   margin-top: 0.25em;
 }
 
-.step-1 {
+.step-1,
+.about {
   color: red;
 }
 
@@ -162,10 +159,6 @@ main {
   width: 50%;
   color: darkblue;
   font-size: 1.1rem;
-}
-
-.about {
-  color: red;
 }
 
 .about:hover {

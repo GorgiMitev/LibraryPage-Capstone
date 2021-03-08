@@ -40,7 +40,8 @@ header {
   background-color: white;
 }
 
-.behance {
+.behance,
+.vision-text {
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -100,11 +101,6 @@ header {
 .vision-logo {
   padding-right: 0.5rem;
   height: 2rem;
-}
-
-.vision-text {
-  font-size: 1.2rem;
-  font-weight: bold;
 }
 
 /* Main */
@@ -194,7 +190,8 @@ main {
   height: 20rem;
 }
 
-.buenos {
+.buenos,
+.warsaw {
   background-image:
     linear-gradient(115deg, rgba(161, 125, 125, 0.8), rgba(170, 30, 30, 0.7)),
     url(/img/people-buenos.jpg);
@@ -210,13 +207,7 @@ main {
   background-image:
     linear-gradient(115deg, rgba(161, 125, 125, 0.8), rgba(170, 30, 30, 0.7)),
     url(/img/people-warsaw.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 20rem;
-  color: white;
-  text-align: center;
-}
+}  
 
 .date {
   font-size: 2rem;

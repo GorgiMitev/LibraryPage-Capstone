@@ -39,7 +39,8 @@ header {
   background-color: white;
 }
 
-.behance {
+.behance,
+.vision-text {
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -91,6 +92,7 @@ header {
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
 }
+
 #about, 
 #events {
   color: red !important;
@@ -99,11 +101,6 @@ header {
 .vision-logo {
   padding-right: 0.5rem;
   height: 2rem;
-}
-
-.vision-text {
-  font-size: 1.2rem;
-  font-weight: bold;
 }
 
 /* Main */
@@ -137,10 +134,6 @@ header {
 
 .vision {
   color: blue !important;
-}
-
-.logo-title:hover {
-  transform: rotate(360deg);
 }
 
 .working-hours {
