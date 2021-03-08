@@ -339,7 +339,7 @@ main {
     display: flex;
     flex-direction: row;
   }
-  
+
   .nav-left,
   .nav-right,
   .search {
@@ -361,7 +361,7 @@ main {
   header {
     padding-bottom: 2rem;
   }
-  
+
   .nav-bottom {
     height: 5rem;
     display: flex;
