@@ -326,6 +326,7 @@ main {
     font-size: 1.2rem;
   }
 }
+
 /* Media query laptop */
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
@@ -351,7 +352,6 @@ main {
 
   main {
     width: 100%;
-
   }
 }
 
@@ -363,10 +363,10 @@ main {
   }
   
   .nav-bottom {
-  height: 5rem;
-  display: flex;
-  flex-direction: row;
-}
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+  }
 
   .nav-left,
   .nav-right,

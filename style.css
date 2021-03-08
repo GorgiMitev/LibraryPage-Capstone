@@ -413,10 +413,10 @@ header {
   }
   
   .nav-bottom {
-  height: 5rem;
-  display: flex;
-  flex-direction: row;
-}
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+  }
 
   .nav-left,
   .nav-right,
