@@ -93,7 +93,8 @@ header {
   border-top-left-radius: 40px;
 }
 
-#about, #events {
+#about,
+#events {
   color: red !important;
 }
 
@@ -362,7 +363,7 @@ header {
   header {
     padding-bottom: 2rem;
   }
-  
+
   .nav-bottom {
     height: 5rem;
     display: flex;
@@ -412,10 +413,10 @@ header {
   }
   
   .nav-bottom {
-    height: 5rem;
-    display: flex;
-    flex-direction: row;
-  }
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+}
 
   .nav-left,
   .nav-right,
