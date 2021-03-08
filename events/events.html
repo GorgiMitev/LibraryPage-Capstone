@@ -12,55 +12,78 @@
 <body>
 
   <header>
-    <nav class ="container-fluid nav nav-top d-flex justify-content-between pb-2"> 
+    <nav class="nav nav-top bg-dark d-flex justify-content-end">
+        <ul class="nav pt-2 text-light col-11 col-md-6 d-flex justify-content-sm-start justify-content-md-center">
+            <li class="nav-item p-1 m-1">
+                <a class="nav-item" href="#"><img class="img-fluid top-nav-icon" src="/img/twitter.png" alt="twitter logo"></a>
+            </li>
+            <li class="nav-item m-1 p-1">
+                <a class="nav-item" href="#"><i class="fab fa-facebook-f fb-icon mt-2"></i></a>
+            </li>
+            <li class="nav-item pt-1">
+            <a class="nav-link text-light" href="#">English</a>
+            </li>
+            <li class="nav-item pt-1 ">
+            <a class="nav-link text-light" href="/main.html">My Page</a>
+            </li>
+            <li class="nav-item pt-1 ">
+                <a class="nav-link text-light" href="#">Logout</a>
+            </li>
+        </ul>
+    </nav>
 
-        <!--Navbar-left-->
-         <ul class="col-md-4 nav nav-left pt-2">
-             <li class="nav-item noHover">
-             <a class="nav-link behance d-none d-md-block d-xl-block" href="#">Vision Library</a>
-             </li>
-             <li class="nav-item pt-1">
-             <a class="nav-link black-hover" href="/index.html">Home</a>
-             </li>
-             <li class="nav-item pt-1 ">
-             <a class="nav-link black-hover" href="#">Books</a>
-             </li>
-             <li class="nav-item pt-1 ">
-             <a class="nav-link black-hover" href="#">Authors</a>
-             </li>
-             <li class="nav-item pt-1 ">
-                 <a class="nav-link black-hover" href="/about/index.html">About</a>
-                 </li>
-         </ul>
- 
-         <!--Navbar-middle-->
-         <div class="col-md-4 form-group has-search pt-3 d-md-none d-lg-block">
-             <span class="fa fa-search form-control-feedback"></span>
-             <input type="text" class="form-control search" placeholder="Search...">
-         
-         </div>
-         
-          <!--Navbar-right-->
-         <ul class="col-md-4 nav nav-right d-flex justify-content-end pt-3">
-             <li class="nav-item">
-                 <form action="#">
-                     <button class="btn btn-login text-dark bg-white d-sm-flex border">Log in</button>
-                 </form>
-             </li>
-             <li class="nav-item">
-                 <form action="#">
-                     <button class="btn btn-sign-up text-white bg-primary border">Sign Up</button>
-                 </form>
-             <li class="nav-item pt-1">
-                 <a class="vision-text" href="#"><img class="img-fluid vision-logo" src="/img/binoculars.png" alt="vision-logo">Vision</a>
-             </li>
-         </ul>
-     </nav>
+    <nav class ="container-fluid nav nav-bottom d-flex justify-content-between pb-2 mb-1"> 
+
+       <!--Navbar-left-->
+
+       <div class="nav-left col-md-12 col-lg-3 d-flex justify-content-around">
+            <div class="form-group has-search pt-3 col-md-5">
+                <span class="fa fa-search form-control-feedback"></span>
+                <input type="text" class="form-control search" placeholder="Search..."> 
+            </div>    
+            <ul class="nav nav-logo">
+                <li class="nav-item pt-3 d-none d-md-none d-xl-block">
+                    <a class="vision-text noHover" href="#"><img class="img-fluid vision-logo" src="/img/binoculars.png" alt="vision-logo">Vision</a>
+                </li>
+            </ul>
+        </div>
+
+        <!--Navbar-right-->
+        <ul class="col-md-6 nav nav-right mb-1 mt-1">
+            <li class="nav-item noHover">
+                <a class="nav-link behance d-none d-md-none d-xl-block" href="#">Vision Library</a>
+            </li>
+            <li class="nav-item pt-1 ">
+                <a class="nav-link" id="about" href="/about/about.html">About</a>
+            </li>
+            <li class="nav-item pt-1">
+                <a class="nav-link black-hover" href="#">Books</a>
+            </li>
+            <li class="nav-item pt-1 ">
+                <a class="nav-link black-hover" href="#">Authors</a>
+            </li>
+            <li class="nav-item pt-1 ">
+                <a class="nav-link black-hover" href="#">Join</a>
+            </li>
+            <li class="nav-item pt-1 ">
+                <a class="nav-link black-hover" href="#">Program</a>
+            </li>
+            <li class="nav-item pt-1 ">
+                <a class="nav-link black-hover" href="#">Sponsor</a>
+            </li>
+            <li class="nav-item pt-1 ">
+                <a class="nav-link black-hover" href="#">News</a>
+            </li>
+            <li class="nav-item pt-1 ">
+                <a class="nav-link border border-danger border-3" id="events" href="/events/events.html">Events</a>
+            </li>
+        </ul>
+    </nav>
     </header>
      <!--Main-->
 
     <main>
-        <section class="section-1 container pt-5 mt-3 d-flex flex-column align-items-center">
+        <section class="section-1 container-fluid pt-5 mt-3 d-flex flex-column align-items-center">
             <h2 class="main-title mt-4 text-center" >Tickets for the Book Conference</h2>
             <div class="ticket-option text-center btn-subscribe border border-secondary border-2">
                 <p class="ticket-p"><span class="step-1">Step 1 </span> Choose the type of pass would you like to purchase</p>
@@ -71,7 +94,7 @@
             </article>
             
 
-            <table class="table table-top table-hover text-center m-5 table-responsive">
+            <table class="table table-top table-hover text-center m-5 table-responsive container">
                 <thead>
                 <tr>
                     <th scope="col" class="ticket">Ticket</th>
@@ -129,7 +152,7 @@
                 </tbody>
             </table>
         </section>
-        <section class="section-2 container pt-5 d-flex flex-column align-items-center">
+        <section class="section-2 container-fluid pt-5 d-flex flex-column align-items-center">
             <h2 class="main-title" >Vauchers for your breakfast and lunch</h2>
             <div class="ticket-option text-center btn-subscribe border border-secondary border-2">
                 <p class="ticket-p"><span class="step-1">Step 1</span> Choose the type of menu would you like to have for your given day    </p>
@@ -137,7 +160,7 @@
 
             <h4 class="menu-title pt-5">Breakfast</h4>
 
-            <table id="table-1" class="table text-center table-responsive">
+            <table id="table-1" class="table text-center table-responsive container">
                 <thead>
                   <tr class="table-tr">
                     <th colspan="4"></th>
@@ -167,7 +190,7 @@
 
               <h4 class="menu-title">Lunch</h4>
 
-              <table id="table-2" class="table text-center table-responisve">
+              <table id="table-2" class="table text-center table-responisve container">
                 <thead>
                     <tr class="table-tr">
                       <th colspan="4"></th>
@@ -204,7 +227,7 @@
 
     <!-- Footer-->
     
-    <footer class="container footer flex pt-5">
+    <footer class="container-fluid footer flex pt-5">
         <ul class="footer-top nav">
           <li class="nav-item">
             <a href="#" class="nav-link"
