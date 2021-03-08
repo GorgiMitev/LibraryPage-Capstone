@@ -1,7 +1,9 @@
 
-# Capstone Project/Conference Page clone
+## Capstone Project/ Library  Page clone
 
 In this project I was making a Library page, the inspiration for the library page was a conference page given by Cindy Shin in Behance.
+
+[Snapshot](/img/vision-library-scree.png)
 
 ## Link of the page used for inspiration  
 
@@ -12,10 +14,9 @@ In this project I was making a Library page, the inspiration for the library pag
 - CSS/HTML
 - Bootstrap
 
-
 ## Live Demo
 
-[Live Demo Link](capstonelibrary.netlify.app)
+[Live Demo Link](https://capstonelibrary.netlify.app)
 
 # Work Done
 
