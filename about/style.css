@@ -330,7 +330,6 @@ main {
 /* Media query laptop */
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
-
   header {
     padding-bottom: 2rem;
   }
@@ -340,7 +339,7 @@ main {
     display: flex;
     flex-direction: row;
   }
-
+  
   .nav-left,
   .nav-right,
   .search {
@@ -359,7 +358,6 @@ main {
 /* Media query laptop */
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
-  
   header {
     padding-bottom: 2rem;
   }
