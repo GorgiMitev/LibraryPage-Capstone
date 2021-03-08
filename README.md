@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/myapp-blueviolet)
 
-# The Newsweek clone
+# Capstone Project/ Library  Page Clone
 
 In this project we were making a clone of newsweek website using bootstrap framework.
 
