@@ -11,85 +11,110 @@
 </head>
 <body>
    <header>
-    <nav class ="container-fluid nav nav-top d-flex justify-content-between pb-2"> 
+    <nav class="nav nav-top bg-dark d-flex justify-content-end">
+        <ul class="nav pt-2 text-light col-11 col-md-6 d-flex justify-content-sm-start justify-content-md-center">
+            <li class="nav-item p-1 m-1">
+                <a class="nav-item" href="#"><img class="img-fluid top-nav-icon" src="./img/twitter.png" alt="twitter logo"></a>
+            </li>
+            <li class="nav-item m-1 p-1">
+                <a class="nav-item" href="#"><i class="fab fa-facebook-f fb-icon mt-2"></i></a>
+            </li>
+            <li class="nav-item pt-1">
+            <a class="nav-link text-light" href="#">English</a>
+            </li>
+            <li class="nav-item pt-1 ">
+            <a class="nav-link text-light" href="/index.html">My Page</a>
+            </li>
+            <li class="nav-item pt-1 ">
+                <a class="nav-link text-light" href="#">Logout</a>
+            </li>
+        </ul>
+    </nav>
+
+    <nav class ="container-fluid nav nav-bottom d-flex justify-content-between pb-2"> 
 
        <!--Navbar-left-->
-        <ul class="col-md-4 nav nav-left pt-2">
-            <li class="nav-item noHover">
-            <a class="nav-link behance d-none d-md-block d-xl-block" href="#">Vision Library</a>
-            </li>
-            <li class="nav-item pt-1">
-            <a class="nav-link black-hover" href="#">Books</a>
-            </li>
-            <li class="nav-item pt-1 ">
-            <a class="nav-link black-hover" href="#">Authors</a>
-            </li>
-            <li class="nav-item pt-1 ">
-            <a class="nav-link black-hover" href="#">About</a>
-            </li>
-            <li class="nav-item pt-1 ">
-                <a class="nav-link black-hover" href="#">Events</a>
-                </li>
-        </ul>
 
-        <!--Navbar-middle-->
-        <div class="col-md-4 form-group has-search pt-3 d-md-none d-lg-block">
-            <span class="fa fa-search form-control-feedback"></span>
-            <input type="text" class="form-control search" placeholder="Search...">
-        
+       <div class="nav-left col-md-12 col-lg-3 d-flex justify-content-around">
+            <div class="form-group has-search pt-3 col-md-5">
+                <span class="fa fa-search form-control-feedback"></span>
+                <input type="text" class="form-control search" placeholder="Search..."> 
+            </div>    
+            <ul class="nav nav-logo">
+                <li class="nav-item pt-3 d-none d-md-none d-xl-block">
+                    <a class="vision-text noHover" href="#"><img class="img-fluid vision-logo" src="./img/binoculars.png" alt="vision-logo">Vision</a>
+                </li>
+            </ul>
         </div>
-        
-         <!--Navbar-right-->
-        <ul class="col-md-4 nav nav-right d-flex justify-content-end pt-3">
-            <li class="nav-item">
-                <form action="#">
-                    <button class="btn btn-login text-dark bg-white d-sm-flex border">Log in</button>
-                </form>
+
+        <!--Navbar-right-->
+        <ul class="col-md-6 nav nav-right mb-1 mt-1">
+            <li class="nav-item noHover">
+                <a class="nav-link behance d-none d-md-none d-xl-block" href="#">Vision Library</a>
             </li>
-            <li class="nav-item">
-                <form action="#">
-                    <button class="btn btn-sign-up text-white bg-primary border">Sign Up</button>
-                </form>
+            <li class="nav-item pt-1 ">
+                <a class="nav-link" id="about" href="/about/about.html">About</a>
+            </li>
             <li class="nav-item pt-1">
-                <a class="vision-text" href="#"><img class="img-fluid vision-logo" src="./img/binoculars.png" alt="vision-logo">Vision</a>
+                <a class="nav-link black-hover" href="#">Books</a>
+            </li>
+            <li class="nav-item pt-1 ">
+                <a class="nav-link black-hover" href="#">Authors</a>
+            </li>
+            <li class="nav-item pt-1 ">
+                <a class="nav-link black-hover" href="#">Join</a>
+            </li>
+            <li class="nav-item pt-1 ">
+                <a class="nav-link black-hover" href="#">Program</a>
+            </li>
+            <li class="nav-item pt-1 ">
+                <a class="nav-link black-hover" href="#">Sponsor</a>
+            </li>
+            <li class="nav-item pt-1 ">
+                <a class="nav-link black-hover" href="#">News</a>
+            </li>
+            <li class="nav-item pt-1 ">
+                <a class="nav-link border border-danger border-3" id="events" href="/events/events.html">Events</a>
             </li>
         </ul>
     </nav>
     </header>
     <!--Main-->
 
-    <main class="mt-1">
-        <div class="container-fluid">
-            <div class="row justify-content-around pt-5">
-                <div class="col-md-4 library-box">
-                    <img src="./img/binacular-logo.jpg" alt="library-logo" class="library-logo img-fluid pt-5 d-none d-md-block d-lg-block">
-                </div>
-                <div class="col-md-5">
-                    <h3 class="logo-title pt-5 text-uppercase text-sm-center" >Welcome to <span class='vision' >Vision </span><br>when in doubt come to us!</h3>
-                </div>
-            </div>    
-        </div>
-
-        <div class="row information">
-            <div class="working-hours col-md-6 container mt-5 border border-secondary border-3">
-                <p class="time">
-                    We are open from Monday - Friday <br> 8.00AM - 10.00PM <br> and Saturday from 8.00AM - 6.00PM!
-                </p>
+    <main>
+        <div class="main-section container-fluid bg-light pb-3 pt-5">
+            <div class="container-fluid">
+                <div class="row justify-content-around pt-5 logo-section">
+                    <div class="col-md-6 col-xl-4 library-box">
+                        <img src="./img/binacular-logo.jpg" alt="library-logo" class="library-logo img-fluid pt-5 d-none d-md-block d-lg-block">
+                    </div>
+                    <div class="col-md-6 col-xl-5 library-title">
+                        <h1 class="logo-title pt-5 text-uppercase text-sm-center" >Welcome to <span class='vision' >Vision </span><br>when in doubt come to us!</h1>
+                    </div>
+                </div>    
             </div>
 
-            <div class="adress-bar col-md-6 container mt-5 border border-secondary border-3 pt-1">
-                <p class="adress"> We have a special seminar just for this week...Please Subscribe
-                </p>
-                <form action="#">
-                    <button class="btn btn-subscribe text-white bg-success border">Subscrirbe</button> 
-                </form>
-                <a href="#"><p class="email-p pt-2">visionlibrary@gmail.com</p></a>
-                <a href="#"><p class="email-p">www.visionlibrary.com</p></a>
+            <div class="row information">
+                <div class="working-hours col-md-4 container mt-5 border border-secondary border-3">
+                    <p class="time">
+                        We are open from Monday - Friday <br> 8.00AM - 10.00PM <br> and Saturday from 8.00AM - 6.00PM!
+                    </p>
+                </div>
 
+                <div class="adress-bar col-md-4 container mt-5 border border-secondary border-3 pt-1">
+                    <p class="adress"> We have a special seminar just for this week...Please Subscribe
+                    </p>
+                    <form action="/events/index.html">
+                        <button class="btn btn-subscribe text-white bg-success border">Subscrirbe</button> 
+                    </form>
+                    <a href="#"><p class="email-p pt-2">visionlibrary@gmail.com</p></a>
+                    <a href="#"><p class="email-p">www.visionlibrary.com</p></a>
+
+                </div>
             </div>
         </div>
 
-        <div class="container category-section mt-5 p-3">
+        <div class="container-fluid category-section p-3">
             <a href="#"><h4 class="category-title">Category Section</h4></a>
             <div class="row">
                 <div class="col-md-3">
@@ -139,7 +164,7 @@
             <a href=""><p class="top-rated mt-5">Enjoy our selection of most read books</p></a>
         </div>
 
-        <div class="container authors">
+        <div class="container-fluid authors">
             <div class="row">
                 <a href="#" class="noHover" ><h4 class="authors-title p-3">Top Authors By Category</h4></a>
                 <div class="col-md-6">
@@ -306,7 +331,7 @@
 
     <!--Footer-->
 
-    <footer class="container footer flex pt-5">
+    <footer class="container-fluid footer flex pt-5">
           <ul class="footer-top nav">
             <li class="nav-item">
               <a href="#" class="nav-link"
@@ -362,10 +387,10 @@
         
           <ul class="nav footer-bottom">
             <li class="nav-item">
-              <a class="nav-link nav-b" href="#">Events</a>
+              <a class="nav-link nav-b" href="./events/events.html">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-b" href="#">About</a>
+              <a class="nav-link nav-b" href="/about/about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link nav-b" href="#">Top Rated</a>

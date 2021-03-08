@@ -1,18 +1,31 @@
-![](https://img.shields.io/badge/myapp-blueviolet)
 
-# Capstone Project/ Library  Page Clone
+## Capstone Project/ Library  Page clone
 
-In this project we were making a clone of newsweek website using bootstrap framework.
+In this project I was making a Library page, the inspiration for the library page was a conference page given by Cindy Shin in Behance.
+
+[Snapshot](/img/vision-library-scree.png)
+
+## Link of the page used for inspiration  
+
+[Inspiration Page link](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## Built With
 
 - CSS/HTML
 - Bootstrap
--
 
 ## Live Demo
 
-[Live Demo Link](https://quirky-hypatia-a60de6.netlify.app/)
+[Live Demo Link](https://capstonelibrary.netlify.app)
+
+# Work Done
+
+- Created a main library page using mainly html and css along with bootstrap
+- Added the required book categories along with the most important authors from each section
+- Created a footer with all the social-media links
+- Created an events section where you can book your ticket and meal for the upcoming conference
+- Created an about section specifying what the upcoming conference is about
+- Added different styles and transformations mainly to the main page of the site
 
 ## Getting Started
 
@@ -26,10 +39,6 @@ To get a local copy up and running follow these simple example steps.
 Just clone or download repo and run locally on your machine
 
 ## Authors
-
-👤 **Marko Zecevic**
-
-- GitHub: [@githubhandle](https://github.com/MarkoNS1990)
 
 👤 **Gorgi Mitev**
 
@@ -49,10 +58,14 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
+- Insipration for the page was taken from Cindy Shin in Behance.
+- Live demo link given above
 - etc
 
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
+
+## Video presentation of the web page
+
+[Link to the video](https://www.youtube.com/watch?v=Dv87MyveyNY)

@@ -16,16 +16,31 @@ a {
   text-decoration: none;
 }
 
-.nav-top {
+.top-nav-icon {
+  width: 1.3rem;
+}
+
+.fb-icon {
+  color: white;
+  height: 2rem;
+}
+
+.nav-top,
+.nav-bottom {
+  width: 100%;
+  height: 3.3rem;
+}
+
+header {
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 2;
   background-color: white;
-  height: 4rem;
 }
 
-.behance {
+.behance,
+.vision-text {
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -35,8 +50,7 @@ a {
 }
 
 .black-hover:hover {
-  text-decoration: underline;
-  text-decoration-color: black;
+  text-decoration: none;
   color: black;
 }
 
@@ -58,6 +72,7 @@ a {
 
 .search {
   height: 2rem;
+  width: 9rem;
   border-bottom-right-radius: 40px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
@@ -69,8 +84,6 @@ a {
   text-align: center;
 }
 
-.btn-login,
-.btn-sign-up,
 .btn-subscribe {
   font-size: 0.9rem;
   font-weight: bold;
@@ -80,35 +93,17 @@ a {
   border-top-left-radius: 40px;
 }
 
-.btn-sign-up {
-  margin-right: 2rem;
-  margin-left: 0.4rem;
-  width: 6rem;
+#about,
+#events {
+  color: red !important;
 }
 
 .vision-logo {
   padding-right: 0.5rem;
-  height: 1.4rem;
-}
-
-.vision-text {
-  font-size: 0.8rem;
-  font-weight: bold;
+  height: 2rem;
 }
 
 /* Main */
-
-main::before {
-  content: "";
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  background: center center / cover no-repeat;
-  background-image:
-    linear-gradient(115deg, rgba(173, 169, 150, 0.8), rgba(242, 242, 242, 0.7)),
-    url(/img/library-background.jpeg);
-}
 
 .library-logo {
   width: 40rem;
@@ -121,12 +116,10 @@ main::before {
 .logo-title {
   text-align: center;
   font-family: "Oswald", Helvetica, sans-serif;
-  font-size: 80px;
-  transform: skewY(-10deg);
+  font-size: 50px;
   letter-spacing: 4px;
   word-spacing: -8px;
   color: tomato;
-  transition: width 2s, height 2s, background-color 2s, transform 2s;
   text-shadow:
     -1px -1px 0 firebrick,
     -2px -2px 0 firebrick,
@@ -141,10 +134,6 @@ main::before {
 
 .vision {
   color: blue !important;
-}
-
-.logo-title:hover {
-  transform: rotate(360deg);
 }
 
 .working-hours {
@@ -181,7 +170,6 @@ main::before {
 .category-section {
   background: url(./img/bg-img-category.jpg) center center / cover no-repeat;
   text-align: center;
-  border-radius: 8px;
   color: white;
 }
 
@@ -331,20 +319,17 @@ main::before {
     flex-direction: column;
   }
 
-  .nav-top {
+  .nav-bottom {
     height: 10rem;
   }
 
   .adress-bar,
-  .working-hours {
+  .working-hours,
+  .search {
     width: 100%;
   }
 
-  .has-search {
-    width: 100%;
-  }
-
-  .nav-left {
+  .nav-right {
     text-align: center;
   }
 
@@ -375,26 +360,34 @@ main::before {
 /* Tablet-mode media query */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .nav-top {
+  header {
+    padding-bottom: 2rem;
+  }
+
+  .nav-bottom {
+    height: 5rem;
     display: flex;
-    flex-direction: column;
-    height: 7rem;
+    flex-direction: row;
   }
 
-  .nav-left {
+  .nav-left,
+  .nav-right,
+  .has-search,
+  .search {
     width: 100%;
-    margin-bottom: 0;
-    padding-left: 10rem;
-  }
-
-  .nav-right {
-    width: 100%;
-    margin-top: 0;
-    padding-right: 14rem;
   }
 
   main {
+    width: 100%;
     padding-top: 2rem;
+  }
+
+  .library-box {
+    margin-right: 10rem;
+  }
+
+  .library-title {
+    width: 100%;
   }
 
   .author-img2 {
@@ -409,5 +402,34 @@ main::before {
   .follow-p {
     color: white;
     font-size: 1.2rem;
+  }
+}
+
+/* Media query laptop */
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  header {
+    padding-bottom: 2rem;
+  }
+
+  .nav-bottom {
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-left,
+  .nav-right,
+  .search {
+    width: 100%;
+  }
+
+  .nav-right {
+    margin-left: 13rem;
+  }
+
+  main {
+    width: 100%;
+    padding-top: 2rem;
   }
 }
