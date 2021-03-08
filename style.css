@@ -93,8 +93,7 @@ header {
   border-top-left-radius: 40px;
 }
 
-#about, 
-#events {
+#about, #events {
   color: red !important;
 }
 

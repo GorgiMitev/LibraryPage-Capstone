@@ -93,8 +93,8 @@ header {
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
 }
-#about, 
-#events {
+
+#about, #events {
   color: red !important;
 }
 
@@ -106,7 +106,7 @@ header {
 /* Main */
 
 main {
-  margin-top: 2.2rem; 
+  margin-top: 2.2rem;
 }
 
 /* Section-1 */
@@ -328,10 +328,10 @@ table > tbody > tr > td {
   }
   
   .nav-bottom {
-    height: 5rem;
-    display: flex;
-    flex-direction: row;
-  }
+   height: 5rem;
+   display: flex;
+   flex-direction: row;
+ }
 
   .nav-left,
   .nav-right,
