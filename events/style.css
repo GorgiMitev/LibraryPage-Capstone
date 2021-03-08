@@ -324,6 +324,7 @@ table > tbody > tr > td {
 /* Tablet-mode media query */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  
   header {
     padding-bottom: 2rem;
   }
@@ -355,10 +356,11 @@ table > tbody > tr > td {
 /* Media query laptop */
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+
   header {
     padding-bottom: 2rem;
   }
-  
+
   .nav-bottom {
     height: 5rem;
     display: flex;

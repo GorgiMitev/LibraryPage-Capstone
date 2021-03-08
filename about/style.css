@@ -330,6 +330,7 @@ main {
 /* Media query laptop */
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+
   header {
     padding-bottom: 2rem;
   }
@@ -358,6 +359,7 @@ main {
 /* Media query laptop */
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  
   header {
     padding-bottom: 2rem;
   }
